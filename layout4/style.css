@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    
+}
+section{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+header{
+    background-color: pink;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    background-color: purple;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu div{
+    width: 20%;
+    background-color: purple;
+    height: 20%;
+}
+
+main{
+    background-color: yellow;
+    width: 48%;
+    height: 200px;
+    flex-grow: 1;
+}
+aside{
+    background-color: aqua;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+footer{
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+}
+
+.left{
+    margin: 5px;
+}
+.right{
+    margin: 5px;
+}

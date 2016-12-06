@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+header{
+    background-color: pink;
+    width: 100%; 
+    height: 200px;
+}
+main{
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+    flex-grow: 1;
+}
+aside{
+    background-color: aqua;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+footer{
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+}
